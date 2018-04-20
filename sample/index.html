@@ -1,20 +1,20 @@
 <html>
     <head>
-        <title>INM TECH CONF 2018</title>
+        <title>Sample</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
         <link rel="stylesheet" href="notifier.css">
     </head>
     <body>
+        <div class="notifier-container">
 
 
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="notifier.js" type="text/javascript" charset="utf-8"></script>
         <script type="text/javascript">
-            var notify = new Notifier({timeout: 5000});
-            // notify.popup({}
-                // );
-
+            notify = new Notifier();
+            notify.popup('Hello');
         </script>
     </body>
 </html>
